@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color:#fefefe;
+    font-family: sans-serif;
+    text-align: center;
+}
+.super-wrapper {
+    display: table;
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    height:80vh;
+}
+.wrapper {
+    display:table-cell;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+textarea {
+    outline: none;
+    resize: none;
+    padding:1em;
+	border: 1px solid #788489;
+    font-size: 1em;
+}
+textarea:focus {
+    border: 1px solid #353d43;
+}
+button {
+    font-size: 1em;
+    color: #788489;
+    padding: 12px 20px;
+    border: none;
+    background-color:#fefefe;
+    -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+}
+button:hover {
+    color:#1c1e21;
+}
+//*
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
